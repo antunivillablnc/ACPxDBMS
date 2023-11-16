@@ -13,7 +13,7 @@ create table agents
 (
 	agentID INT primary key,
 	name varchar (100) not null,
-	gender varchar (25) not null,
+	gender char not null,
 	contact_info int not null,
 	commission_rate dec(10,2) not null,
 	username varchar (200) not null,
