@@ -23,7 +23,6 @@ create table agents
 create table buyers
 (
 	buyerID int primary key,
-	address varchar (100) not null,
 	name varchar (100) not null,
 	contact_number varchar (20) not null,
 	budget dec(20,2) not null
@@ -37,7 +36,9 @@ create table transactions
 	buyerID int,
 	foreign key(buyerID) references buyers(buyerID),
 	agentID int,
-	foreign key(agentID) references agents (agentID)
+	foreign key(agentID) references agents (agentID),
+	transactiondate date not null,
+	transactionamount dec(20, 2) not null
 );
 
 create table contracts
@@ -53,9 +54,9 @@ create table visits
 	visitID int primary key,
 	propertyID int,
 	foreign key(propertyID) references properties(propertyID),
-	buyerID int,
-	foreign key(buyerID) references buyers(buyerID),
+	visitor_name varchar (255) not null,
 	agentID int,
 	foreign key(agentID) references agents(agentID),
-	visit_date date not null
+	visit_date date not null,
+	feedback varchar (1000) not null
 )
