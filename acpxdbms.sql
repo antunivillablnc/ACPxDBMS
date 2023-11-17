@@ -14,7 +14,7 @@ create table agents
 	agentID INT primary key,
 	name varchar (100) not null,
 	gender char not null,
-	contact_info int not null,
+	contact_info varchar (20) not null,
 	commission_rate dec(10,2) not null,
 	username varchar (200) not null,
 	password varchar (200) not null
@@ -25,7 +25,7 @@ create table buyers
 	buyerID int primary key,
 	address varchar (100) not null,
 	name varchar (100) not null,
-	contact_number int not null,
+	contact_number varchar (20) not null,
 	budget dec(20,2) not null
 );
 
