@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="addbuyers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="addcontract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="addproperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="addtransactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="addvisitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="agents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="buyers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="contracts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="deleteagent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="deletebuyer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="deletecontract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="deleteproperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="deletetransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="deletevisitorrecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="editagents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="editproperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="edittransactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="properties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="transactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="updatebuyers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="updatecontract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="updatevisitorrecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="visits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
