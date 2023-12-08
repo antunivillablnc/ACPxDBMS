@@ -122,12 +122,13 @@
             // 
             // dataGridView1
             // 
+            dataGridView1.BackgroundColor = SystemColors.ControlLightLight;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(272, 12);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(433, 426);
+            dataGridView1.Size = new Size(504, 426);
             dataGridView1.TabIndex = 19;
             // 
             // contracts
@@ -136,7 +137,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             BackColor = Color.FromArgb(230, 228, 224);
-            ClientSize = new Size(717, 450);
+            ClientSize = new Size(793, 450);
             Controls.Add(dataGridView1);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;

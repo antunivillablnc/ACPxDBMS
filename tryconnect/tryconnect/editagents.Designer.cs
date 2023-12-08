@@ -94,7 +94,7 @@
             // 
             edittransaction.BackColor = Color.FromArgb(42, 75, 106);
             edittransaction.ForeColor = Color.FromArgb(230, 228, 224);
-            edittransaction.Location = new Point(1033, 580);
+            edittransaction.Location = new Point(1011, 580);
             edittransaction.Name = "edittransaction";
             edittransaction.Size = new Size(102, 41);
             edittransaction.TabIndex = 100;
@@ -134,7 +134,7 @@
             // 
             returnpropertyedit.BackColor = Color.FromArgb(42, 75, 106);
             returnpropertyedit.ForeColor = Color.FromArgb(230, 228, 224);
-            returnpropertyedit.Location = new Point(1166, 580);
+            returnpropertyedit.Location = new Point(1144, 580);
             returnpropertyedit.Name = "returnpropertyedit";
             returnpropertyedit.Size = new Size(102, 41);
             returnpropertyedit.TabIndex = 101;

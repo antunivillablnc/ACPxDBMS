@@ -39,8 +39,10 @@
             panel1 = new Panel();
             label9 = new Label();
             pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -55,7 +57,7 @@
             // 
             // visitbttn
             // 
-            visitbttn.Location = new Point(524, 266);
+            visitbttn.Location = new Point(524, 264);
             visitbttn.Name = "visitbttn";
             visitbttn.Size = new Size(178, 69);
             visitbttn.TabIndex = 1;
@@ -65,7 +67,7 @@
             // 
             // contractsbttn
             // 
-            contractsbttn.Location = new Point(305, 266);
+            contractsbttn.Location = new Point(305, 264);
             contractsbttn.Name = "contractsbttn";
             contractsbttn.Size = new Size(178, 69);
             contractsbttn.TabIndex = 2;
@@ -75,7 +77,7 @@
             // 
             // transactionsbttn
             // 
-            transactionsbttn.Location = new Point(524, 164);
+            transactionsbttn.Location = new Point(524, 162);
             transactionsbttn.Name = "transactionsbttn";
             transactionsbttn.Size = new Size(178, 69);
             transactionsbttn.TabIndex = 3;
@@ -85,7 +87,7 @@
             // 
             // buyersbttn
             // 
-            buyersbttn.Location = new Point(305, 164);
+            buyersbttn.Location = new Point(305, 162);
             buyersbttn.Name = "buyersbttn";
             buyersbttn.Size = new Size(178, 69);
             buyersbttn.TabIndex = 4;
@@ -95,7 +97,7 @@
             // 
             // agentsbttn
             // 
-            agentsbttn.Location = new Point(97, 266);
+            agentsbttn.Location = new Point(97, 264);
             agentsbttn.Name = "agentsbttn";
             agentsbttn.Size = new Size(178, 69);
             agentsbttn.TabIndex = 5;
@@ -105,7 +107,7 @@
             // 
             // propertiesnbttn
             // 
-            propertiesnbttn.Location = new Point(97, 164);
+            propertiesnbttn.Location = new Point(97, 162);
             propertiesnbttn.Name = "propertiesnbttn";
             propertiesnbttn.Size = new Size(178, 69);
             propertiesnbttn.TabIndex = 6;
@@ -116,6 +118,7 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(42, 75, 106);
+            panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(label9);
             panel1.Location = new Point(-50, -21);
             panel1.Name = "panel1";
@@ -144,6 +147,17 @@
             pictureBox1.TabIndex = 105;
             pictureBox1.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(771, 30);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(67, 61);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 18;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
+            // 
             // MainMenu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -168,6 +182,7 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -183,5 +198,6 @@
         private Panel panel1;
         private Label label9;
         private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }

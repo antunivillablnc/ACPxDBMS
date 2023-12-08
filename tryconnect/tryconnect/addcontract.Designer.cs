@@ -45,7 +45,7 @@
             // 
             // transactionIDaddcontracttxt
             // 
-            transactionIDaddcontracttxt.Location = new Point(20, 228);
+            transactionIDaddcontracttxt.Location = new Point(20, 273);
             transactionIDaddcontracttxt.Name = "transactionIDaddcontracttxt";
             transactionIDaddcontracttxt.Size = new Size(322, 27);
             transactionIDaddcontracttxt.TabIndex = 57;
@@ -55,7 +55,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label5.ForeColor = Color.FromArgb(42, 75, 106);
-            label5.Location = new Point(20, 197);
+            label5.Location = new Point(20, 242);
             label5.Name = "label5";
             label5.Size = new Size(145, 28);
             label5.TabIndex = 56;
@@ -65,7 +65,7 @@
             // 
             panel1.BackColor = Color.FromArgb(42, 75, 106);
             panel1.Controls.Add(label9);
-            panel1.Location = new Point(176, -23);
+            panel1.Location = new Point(262, -23);
             panel1.Name = "panel1";
             panel1.Size = new Size(424, 94);
             panel1.TabIndex = 44;
@@ -86,7 +86,7 @@
             // 
             returnbttnaddcontract.BackColor = Color.FromArgb(42, 75, 106);
             returnbttnaddcontract.ForeColor = Color.FromArgb(230, 228, 224);
-            returnbttnaddcontract.Location = new Point(678, 403);
+            returnbttnaddcontract.Location = new Point(830, 439);
             returnbttnaddcontract.Name = "returnbttnaddcontract";
             returnbttnaddcontract.Size = new Size(102, 41);
             returnbttnaddcontract.TabIndex = 55;
@@ -98,7 +98,7 @@
             // 
             addbttncontract.BackColor = Color.FromArgb(42, 75, 106);
             addbttncontract.ForeColor = Color.FromArgb(230, 228, 224);
-            addbttncontract.Location = new Point(570, 403);
+            addbttncontract.Location = new Point(722, 439);
             addbttncontract.Name = "addbttncontract";
             addbttncontract.Size = new Size(102, 41);
             addbttncontract.TabIndex = 54;
@@ -108,26 +108,27 @@
             // 
             // tandctxt
             // 
-            tandctxt.Location = new Point(20, 334);
+            tandctxt.Location = new Point(20, 396);
             tandctxt.Name = "tandctxt";
             tandctxt.Size = new Size(322, 27);
             tandctxt.TabIndex = 51;
             // 
             // contractIDaddtxt
             // 
-            contractIDaddtxt.Location = new Point(23, 121);
+            contractIDaddtxt.Location = new Point(20, 152);
             contractIDaddtxt.Name = "contractIDaddtxt";
             contractIDaddtxt.Size = new Size(322, 27);
             contractIDaddtxt.TabIndex = 50;
             // 
             // dataGridView1
             // 
+            dataGridView1.BackgroundColor = SystemColors.ControlLightLight;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(397, 90);
+            dataGridView1.Location = new Point(371, 115);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(383, 296);
+            dataGridView1.Size = new Size(561, 308);
             dataGridView1.TabIndex = 49;
             dataGridView1.RowHeaderMouseClick += dataGridView1_RowHeaderMouseClick;
             // 
@@ -136,7 +137,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.FromArgb(42, 75, 106);
-            label2.Location = new Point(20, 303);
+            label2.Location = new Point(20, 365);
             label2.Name = "label2";
             label2.Size = new Size(221, 28);
             label2.TabIndex = 46;
@@ -147,7 +148,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.FromArgb(42, 75, 106);
-            label1.Location = new Point(20, 90);
+            label1.Location = new Point(17, 121);
             label1.Name = "label1";
             label1.Size = new Size(125, 28);
             label1.TabIndex = 45;
@@ -158,7 +159,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(230, 228, 224);
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(944, 492);
             Controls.Add(transactionIDaddcontracttxt);
             Controls.Add(label5);
             Controls.Add(panel1);

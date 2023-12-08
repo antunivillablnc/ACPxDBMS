@@ -32,44 +32,51 @@ namespace tryconnect
 
         private void button7_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             properties propertyfrm = new properties();
             propertyfrm.ShowDialog();
         }
 
         private void buyersbttn_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             buyers buyersfrm = new buyers();
             buyersfrm.ShowDialog();
         }
 
         private void transactionsbttn_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             transactions transactfrm = new transactions();
             transactfrm.ShowDialog();
         }
 
         private void agentsbttn_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             agents agentsfrm = new agents();
             agentsfrm.ShowDialog();
         }
 
         private void contractsbttn_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             contracts contractsfrm = new contracts();
             contractsfrm.ShowDialog();
         }
 
         private void visitbttn_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             visits visitsfrm = new visits();
             visitsfrm.ShowDialog();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Search searchfrm = new Search();
+            searchfrm.ShowDialog();
         }
     }
 }

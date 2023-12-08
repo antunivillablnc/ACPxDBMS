@@ -60,3 +60,4 @@ C:\Users\Anthony\Documents\BSIT\2'ND YEAR\Advanced Programming\1st sem\Final pro
 C:\Users\Anthony\Documents\BSIT\2'ND YEAR\Advanced Programming\1st sem\Final project\tryconnect\tryconnect\obj\Debug\net6.0-windows\tryconnect.addvisitor.resources
 C:\Users\Anthony\Documents\BSIT\2'ND YEAR\Advanced Programming\1st sem\Final project\tryconnect\tryconnect\obj\Debug\net6.0-windows\tryconnect.updatevisitorrecords.resources
 C:\Users\Anthony\Documents\BSIT\2'ND YEAR\Advanced Programming\1st sem\Final project\tryconnect\tryconnect\obj\Debug\net6.0-windows\tryconnect.deletevisitorrecords.resources
+C:\Users\Anthony\Documents\BSIT\2'ND YEAR\Advanced Programming\1st sem\Final project\tryconnect\tryconnect\obj\Debug\net6.0-windows\tryconnect.Search.resources

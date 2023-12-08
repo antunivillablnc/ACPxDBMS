@@ -64,6 +64,9 @@
     <Compile Update="Register.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="transactions.cs">
       <SubType>Form</SubType>
     </Compile>

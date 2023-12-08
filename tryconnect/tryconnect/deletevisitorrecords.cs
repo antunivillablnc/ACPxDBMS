@@ -31,7 +31,7 @@ namespace tryconnect
 
         private void deletebttnvisits_Click(object sender, EventArgs e)
         {
-            if (visitoriddeletetxt.Text != "" && propertyidvisitordeletetxt.Text != "" && visitornamedeletetxt.Text != "" && agentidvisitordeletetxt.Text != "" && visitorfeedbackdeletetxt.Text != "")
+            if (visitoriddeletetxt.Text != "")
             {
                 cmd = new MySqlCommand("delete from sample.visits where visitID=@visitID", con);
                 con.Open();
@@ -62,10 +62,6 @@ namespace tryconnect
         private void ClearData()
         {
             visitoriddeletetxt.Text = "";
-            propertyidvisitordeletetxt.Text = "";
-            visitornamedeletetxt.Text = "";
-            agentidvisitordeletetxt.Text = "";
-            visitorfeedbackdeletetxt.Text = "";
 
 
         }
@@ -73,10 +69,6 @@ namespace tryconnect
         private void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             visitoriddeletetxt.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
-            propertyidvisitordeletetxt.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
-            visitornamedeletetxt.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
-            agentidvisitordeletetxt.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
-            visitorfeedbackdeletetxt.Text = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
         }
     }
 }

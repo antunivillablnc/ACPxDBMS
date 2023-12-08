@@ -24,7 +24,7 @@ namespace tryconnect
 
         private void deletecontractbttn_Click(object sender, EventArgs e)
         {
-            if (contractIDdeletetxt.Text != "" && transactionIDdeletecontracttxt.Text != "" && tandcdeletetxt.Text != "")
+            if (contractIDdeletetxt.Text != "")
             {
                 cmd = new MySqlCommand("delete from sample.contracts where contractID=@contractID", con);
                 con.Open();
@@ -54,16 +54,12 @@ namespace tryconnect
         private void ClearData()
         {
             contractIDdeletetxt.Text = "";
-            transactionIDdeletecontracttxt.Text = "";
-            tandcdeletetxt.Text = "";
 
         }
 
         private void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             contractIDdeletetxt.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
-            transactionIDdeletecontracttxt.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
-            tandcdeletetxt.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
         }
 
         private void returnbttneditcontract_Click(object sender, EventArgs e)

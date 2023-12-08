@@ -64,7 +64,7 @@
             // 
             deletebttnagent.BackColor = Color.FromArgb(42, 75, 106);
             deletebttnagent.ForeColor = Color.FromArgb(230, 228, 224);
-            deletebttnagent.Location = new Point(191, 442);
+            deletebttnagent.Location = new Point(192, 460);
             deletebttnagent.Name = "deletebttnagent";
             deletebttnagent.Size = new Size(102, 41);
             deletebttnagent.TabIndex = 118;
@@ -76,7 +76,7 @@
             // 
             returnpropertyedit.BackColor = Color.FromArgb(42, 75, 106);
             returnpropertyedit.ForeColor = Color.FromArgb(230, 228, 224);
-            returnpropertyedit.Location = new Point(494, 442);
+            returnpropertyedit.Location = new Point(495, 460);
             returnpropertyedit.Name = "returnpropertyedit";
             returnpropertyedit.Size = new Size(102, 41);
             returnpropertyedit.TabIndex = 119;
@@ -96,11 +96,11 @@
             // 
             dataGridView1.BackgroundColor = SystemColors.ControlLightLight;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(15, 167);
+            dataGridView1.Location = new Point(24, 167);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(770, 269);
+            dataGridView1.Size = new Size(750, 269);
             dataGridView1.TabIndex = 112;
             dataGridView1.RowHeaderMouseClick += dataGridView1_RowHeaderMouseClick;
             // 
@@ -119,7 +119,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 495);
+            BackColor = Color.FromArgb(230, 228, 224);
+            ClientSize = new Size(800, 519);
             Controls.Add(panel1);
             Controls.Add(deletebttnagent);
             Controls.Add(returnpropertyedit);

@@ -113,7 +113,7 @@
             label9.BackColor = Color.FromArgb(42, 75, 106);
             label9.Font = new Font("Segoe UI", 22.2F, FontStyle.Bold, GraphicsUnit.Point);
             label9.ForeColor = Color.FromArgb(230, 228, 224);
-            label9.Location = new Point(6, 48);
+            label9.Location = new Point(6, 32);
             label9.Name = "label9";
             label9.Size = new Size(250, 115);
             label9.TabIndex = 17;
@@ -122,6 +122,7 @@
             // 
             // dataGridView1
             // 
+            dataGridView1.BackgroundColor = SystemColors.ControlLightLight;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(274, 12);
             dataGridView1.Name = "dataGridView1";
@@ -134,6 +135,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(230, 228, 224);
             ClientSize = new Size(1078, 450);
             Controls.Add(dataGridView1);
             Controls.Add(panel1);

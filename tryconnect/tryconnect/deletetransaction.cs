@@ -35,7 +35,7 @@ namespace tryconnect
 
         private void deletetr_Click(object sender, EventArgs e)
         {
-            if (transactionsidtxtdelete.Text != "" && propertyidtxtdelete.Text != "" && buyeridtxtdelete.Text != "" && agentidtxtdelete.Text != "" && transactionamttxtdelete.Text != "")
+            if (transactionsidtxtdelete.Text != "")
             {
                 cmd = new MySqlCommand("delete from sample.transactions where transactionID=@transactionID", con);
                 con.Open();
@@ -54,21 +54,12 @@ namespace tryconnect
         private void ClearData()
         {
             transactionsidtxtdelete.Text = "";
-            propertyidtxtdelete.Text = "";
-            buyeridtxtdelete.Text = "";
-            agentidtxtdelete.Text = "";
-            transactionamttxtdelete.Text = "";
 
         }
 
         private void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             transactionsidtxtdelete.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
-            propertyidtxtdelete.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
-            buyeridtxtdelete.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
-            agentidtxtdelete.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
-            //transactiondatetxtdelete.Text = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
-            transactionamttxtdelete.Text = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
         }
 
         private void returnpropertyedit_Click(object sender, EventArgs e)

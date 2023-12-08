@@ -104,7 +104,7 @@
             Addpropertybttn.Name = "Addpropertybttn";
             Addpropertybttn.Size = new Size(136, 59);
             Addpropertybttn.TabIndex = 18;
-            Addpropertybttn.Text = "Add Buyers\r\n\r\n";
+            Addpropertybttn.Text = "Add Buyers";
             Addpropertybttn.UseVisualStyleBackColor = false;
             Addpropertybttn.Click += Addpropertybttn_Click;
             // 
@@ -122,6 +122,7 @@
             // 
             // dataGridView1
             // 
+            dataGridView1.BackgroundColor = SystemColors.ControlLightLight;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(274, 12);
             dataGridView1.Name = "dataGridView1";

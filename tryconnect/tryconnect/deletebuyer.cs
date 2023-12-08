@@ -34,7 +34,7 @@ namespace tryconnect
 
         private void deletebttnproperty_Click(object sender, EventArgs e)
         {
-            if (buyeridtxtdelete.Text != "" && addresstxtdelete.Text != "" && nametxtdelete.Text != "" && contactinfotxtdelete.Text != "" && budgettxtdelete.Text != "")
+            if (buyeridtxtdelete.Text != "")
             {
                 cmd = new MySqlCommand($"delete from sample.buyers where buyerID='{buyeridtxtdelete.Text}'", con);
                 con.Open();
@@ -54,20 +54,12 @@ namespace tryconnect
         private void ClearData()
         {
             buyeridtxtdelete.Text = "";
-            addresstxtdelete.Text = "";
-            nametxtdelete.Text = "";
-            contactinfotxtdelete.Text = "";
-            budgettxtdelete.Text = "";
 
         }
 
         private void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             buyeridtxtdelete.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
-            addresstxtdelete.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
-            nametxtdelete.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
-            contactinfotxtdelete.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
-            budgettxtdelete.Text = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
         }
 
         private void returnpropertyedit_Click(object sender, EventArgs e)

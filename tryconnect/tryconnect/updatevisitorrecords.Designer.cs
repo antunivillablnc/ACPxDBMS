@@ -51,9 +51,9 @@
             // 
             panel1.BackColor = Color.FromArgb(42, 75, 106);
             panel1.Controls.Add(label9);
-            panel1.Location = new Point(178, -36);
+            panel1.Location = new Point(321, -36);
             panel1.Name = "panel1";
-            panel1.Size = new Size(424, 94);
+            panel1.Size = new Size(470, 94);
             panel1.TabIndex = 28;
             // 
             // label9
@@ -61,9 +61,9 @@
             label9.BackColor = Color.FromArgb(42, 75, 106);
             label9.Font = new Font("Segoe UI", 22.2F, FontStyle.Bold, GraphicsUnit.Point);
             label9.ForeColor = Color.FromArgb(230, 228, 224);
-            label9.Location = new Point(0, 39);
+            label9.Location = new Point(23, 39);
             label9.Name = "label9";
-            label9.Size = new Size(456, 56);
+            label9.Size = new Size(424, 56);
             label9.TabIndex = 18;
             label9.Text = "Edit Visitor Records";
             label9.TextAlign = ContentAlignment.TopCenter;
@@ -72,7 +72,7 @@
             // 
             returneditvisitorbttn.BackColor = Color.FromArgb(42, 75, 106);
             returneditvisitorbttn.ForeColor = Color.FromArgb(230, 228, 224);
-            returneditvisitorbttn.Location = new Point(680, 451);
+            returneditvisitorbttn.Location = new Point(1037, 505);
             returneditvisitorbttn.Name = "returneditvisitorbttn";
             returneditvisitorbttn.Size = new Size(102, 41);
             returneditvisitorbttn.TabIndex = 41;
@@ -84,7 +84,7 @@
             // 
             savebttnvisitor.BackColor = Color.FromArgb(42, 75, 106);
             savebttnvisitor.ForeColor = Color.FromArgb(230, 228, 224);
-            savebttnvisitor.Location = new Point(572, 451);
+            savebttnvisitor.Location = new Point(929, 505);
             savebttnvisitor.Name = "savebttnvisitor";
             savebttnvisitor.Size = new Size(102, 41);
             savebttnvisitor.TabIndex = 40;
@@ -94,47 +94,48 @@
             // 
             // visitorfeedbackedittxt
             // 
-            visitorfeedbackedittxt.Location = new Point(22, 401);
+            visitorfeedbackedittxt.Location = new Point(25, 453);
             visitorfeedbackedittxt.Name = "visitorfeedbackedittxt";
             visitorfeedbackedittxt.Size = new Size(322, 27);
             visitorfeedbackedittxt.TabIndex = 39;
             // 
             // agentidvisitoredittxt
             // 
-            agentidvisitoredittxt.Location = new Point(22, 330);
+            agentidvisitoredittxt.Location = new Point(25, 371);
             agentidvisitoredittxt.Name = "agentidvisitoredittxt";
             agentidvisitoredittxt.Size = new Size(322, 27);
             agentidvisitoredittxt.TabIndex = 38;
             // 
             // visitornameedittxt
             // 
-            visitornameedittxt.Location = new Point(25, 258);
+            visitornameedittxt.Location = new Point(25, 299);
             visitornameedittxt.Name = "visitornameedittxt";
             visitornameedittxt.Size = new Size(322, 27);
             visitornameedittxt.TabIndex = 37;
             // 
             // propertyidvisitoredittxt
             // 
-            propertyidvisitoredittxt.Location = new Point(25, 181);
+            propertyidvisitoredittxt.Location = new Point(25, 225);
             propertyidvisitoredittxt.Name = "propertyidvisitoredittxt";
             propertyidvisitoredittxt.Size = new Size(322, 27);
             propertyidvisitoredittxt.TabIndex = 36;
             // 
             // visitoridedittxt
             // 
-            visitoridedittxt.Location = new Point(25, 109);
+            visitoridedittxt.Location = new Point(25, 152);
             visitoridedittxt.Name = "visitoridedittxt";
             visitoridedittxt.Size = new Size(322, 27);
             visitoridedittxt.TabIndex = 35;
             // 
             // dataGridView1
             // 
+            dataGridView1.BackgroundColor = SystemColors.ControlLightLight;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(399, 91);
+            dataGridView1.Location = new Point(399, 119);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(383, 346);
+            dataGridView1.Size = new Size(740, 361);
             dataGridView1.TabIndex = 34;
             dataGridView1.RowHeaderMouseClick += dataGridView1_RowHeaderMouseClick;
             // 
@@ -143,7 +144,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label5.ForeColor = Color.FromArgb(42, 75, 106);
-            label5.Location = new Point(19, 370);
+            label5.Location = new Point(22, 422);
             label5.Name = "label5";
             label5.Size = new Size(109, 28);
             label5.TabIndex = 33;
@@ -154,7 +155,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.FromArgb(42, 75, 106);
-            label4.Location = new Point(22, 299);
+            label4.Location = new Point(25, 340);
             label4.Name = "label4";
             label4.Size = new Size(104, 28);
             label4.TabIndex = 32;
@@ -165,7 +166,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.FromArgb(42, 75, 106);
-            label3.Location = new Point(22, 226);
+            label3.Location = new Point(22, 267);
             label3.Name = "label3";
             label3.Size = new Size(151, 28);
             label3.TabIndex = 31;
@@ -176,7 +177,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.FromArgb(42, 75, 106);
-            label2.Location = new Point(22, 150);
+            label2.Location = new Point(22, 194);
             label2.Name = "label2";
             label2.Size = new Size(128, 28);
             label2.TabIndex = 30;
@@ -187,7 +188,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.FromArgb(42, 75, 106);
-            label1.Location = new Point(22, 76);
+            label1.Location = new Point(22, 119);
             label1.Name = "label1";
             label1.Size = new Size(107, 28);
             label1.TabIndex = 29;
@@ -198,7 +199,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(230, 228, 224);
-            ClientSize = new Size(800, 507);
+            ClientSize = new Size(1162, 556);
             Controls.Add(panel1);
             Controls.Add(returneditvisitorbttn);
             Controls.Add(savebttnvisitor);

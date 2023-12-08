@@ -33,7 +33,8 @@ namespace tryconnect
         {
             con.Open();
             DataTable dt = new DataTable();
-            adapt = new MySqlDataAdapter("select * from sample.transactions", con);
+            //adapt = new MySqlDataAdapter("select * from sample.transactions", con);
+            adapt = new MySqlDataAdapter("select transactionID, propertyID, buyerID, agentID, transaction_date as Date, transactionamount as Amount from sample.transactions", con);
             adapt.Fill(dt);
             dataGridView1.DataSource = dt;
             con.Close();
