@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anthony\\Documents\\BSIT\\2'ND YEAR\\Advanced Programming\\1st sem\\Final project\\tryconnect\\tryconnect\\tryconnect.csproj": {}
+    "C:\\Users\\Anthony\\Documents\\group3REAL_ESTATE\\ACPxDBMS\\tryconnect\\tryconnect\\tryconnect.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anthony\\Documents\\BSIT\\2'ND YEAR\\Advanced Programming\\1st sem\\Final project\\tryconnect\\tryconnect\\tryconnect.csproj": {
+    "C:\\Users\\Anthony\\Documents\\group3REAL_ESTATE\\ACPxDBMS\\tryconnect\\tryconnect\\tryconnect.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anthony\\Documents\\BSIT\\2'ND YEAR\\Advanced Programming\\1st sem\\Final project\\tryconnect\\tryconnect\\tryconnect.csproj",
+        "projectUniqueName": "C:\\Users\\Anthony\\Documents\\group3REAL_ESTATE\\ACPxDBMS\\tryconnect\\tryconnect\\tryconnect.csproj",
         "projectName": "tryconnect",
-        "projectPath": "C:\\Users\\Anthony\\Documents\\BSIT\\2'ND YEAR\\Advanced Programming\\1st sem\\Final project\\tryconnect\\tryconnect\\tryconnect.csproj",
+        "projectPath": "C:\\Users\\Anthony\\Documents\\group3REAL_ESTATE\\ACPxDBMS\\tryconnect\\tryconnect\\tryconnect.csproj",
         "packagesPath": "C:\\Users\\Anthony\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anthony\\Documents\\BSIT\\2'ND YEAR\\Advanced Programming\\1st sem\\Final project\\tryconnect\\tryconnect\\obj\\",
+        "outputPath": "C:\\Users\\Anthony\\Documents\\group3REAL_ESTATE\\ACPxDBMS\\tryconnect\\tryconnect\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

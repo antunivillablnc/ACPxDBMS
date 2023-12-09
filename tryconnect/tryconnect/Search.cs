@@ -19,12 +19,6 @@ namespace tryconnect
         public Search()
         {
             InitializeComponent();
-            /*con.Open();
-            DataTable dt = new DataTable();
-            adapt = new MySqlDataAdapter($"select buyers.buyerID, transactionID,  propertyID, agentID, name, address, contact_number,budget,  transaction_date, transactionamount from sample.buyers inner join sample.transactions on buyers.buyerID = transactions.buyerID where buyers.buyerID like '{Searchtxt.Text}'", con);
-            adapt.Fill(dt);
-            dataGridView1.DataSource = dt;
-            con.Close();*/
         }
 
         private void textBox1_Enter(object sender, EventArgs e)

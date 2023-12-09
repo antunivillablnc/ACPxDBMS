@@ -39,7 +39,7 @@ namespace tryconnect
         {
             con.Open();
             DataTable dt = new DataTable();
-            adapt = new MySqlDataAdapter("select * from sample.properties", con);
+            adapt = new MySqlDataAdapter("select * from sample.properties order by properties.propertyID asc", con);
             adapt.Fill(dt);
             dataGridView1.DataSource = dt;
             con.Close();

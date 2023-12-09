@@ -38,7 +38,7 @@ namespace tryconnect
         {
             con.Open();
             DataTable dt = new DataTable();
-            adapt = new MySqlDataAdapter("select * from sample.buyers", con);
+            adapt = new MySqlDataAdapter("select * from sample.buyers order by buyers.buyerID asc", con);
             adapt.Fill(dt);
             dataGridView1.DataSource = dt;
             con.Close();

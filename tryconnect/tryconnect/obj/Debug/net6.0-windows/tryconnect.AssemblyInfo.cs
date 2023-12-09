@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tryconnect")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53e1da9b6ece1c5d174c3d816de376835add4140")]
 [assembly: System.Reflection.AssemblyProductAttribute("tryconnect")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tryconnect")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

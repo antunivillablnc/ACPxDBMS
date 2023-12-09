@@ -42,7 +42,7 @@ namespace tryconnect
         {
             con.Open();
             DataTable dt = new DataTable();
-            adapt = new MySqlDataAdapter("select * from sample.agents", con);
+            adapt = new MySqlDataAdapter("select * from sample.agents order by agents.agentID asc", con);
             adapt.Fill(dt);
             dataGridView1.DataSource = dt;
             con.Close();

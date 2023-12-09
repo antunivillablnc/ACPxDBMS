@@ -19,12 +19,6 @@ namespace tryconnect
             InitializeComponent();
         }
 
-        /*private void Register_Load(object sender, EventArgs e)
-        {
-            cboGender.Items.Add("Female");
-            cboGender.Items.Add("Male");
-        }*/
-
         private void Registerbttn_Click(object sender, EventArgs e)
         {
             if (agentidtxt.Text == "" || agentnametxt.Text == "" || cboGender.Text == "" || agentcontacttxt.Text == "" || agentratetxt.Text == "" || usernametxt.Text == "" || passwordtxt.Text == "")

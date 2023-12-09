@@ -70,13 +70,6 @@ namespace tryconnect
 
         private void button1_Click(object sender, EventArgs e)
         {
-            /*lagay if statement na mag dedetermine kung tama ang user and pass
-            this.Hide();
-            //show main menu window
-            MainMenu menuwindow = new MainMenu();
-            menuwindow.Show();*/
-
-            //if (string.IsNullOrEmpty(usernametxt1.Text) || string.IsNullOrEmpty(Passwordtxt.Text))
             if (usernametxt1.Text == null || Passwordtxt.Text == null)
             {
                 MessageBox.Show("Please input Username and Password", "Error");

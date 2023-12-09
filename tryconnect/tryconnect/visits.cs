@@ -33,7 +33,7 @@ namespace tryconnect
         {
             con.Open();
             DataTable dt = new DataTable();
-            adapt = new MySqlDataAdapter("select * from sample.visits", con);
+            adapt = new MySqlDataAdapter("select * from sample.visits order by visits.visitID asc", con);
             adapt.Fill(dt);
             dataGridView1.DataSource = dt;
             con.Close();
