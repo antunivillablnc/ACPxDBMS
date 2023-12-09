@@ -70,7 +70,6 @@ namespace tryconnect
             propertyidtxtedit.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
             buyeridtxtedit.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
             agentidtxtedit.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
-            //transactiondatetxtedit.Text = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
             transactionamttxtedit.Text = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
         }
 

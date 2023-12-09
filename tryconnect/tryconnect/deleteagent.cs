@@ -42,7 +42,6 @@ namespace tryconnect
                 con.Close();
                 MessageBox.Show("Record Successfully Deleted", "DELETE", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 DisplayData();
-                //ClearData();
             }
             else
             {

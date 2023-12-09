@@ -35,7 +35,7 @@ namespace tryconnect
 
         private void deletebttnproperty_Click(object sender, EventArgs e)
         {
-            if (propertyidtxtdelete.Text != "") //&& addresstxtdelete.Text != "" && typeofproptxtdelete.Text != "" && sizetxtdelete.Text != "" && pricetxtdelete.Text != "")
+            if (propertyidtxtdelete.Text != "")
             {
                 cmd = new MySqlCommand($"delete from sample.properties where propertyID='{propertyidtxtdelete.Text}'", con);
                 con.Open();
