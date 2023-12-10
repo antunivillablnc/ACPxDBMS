@@ -59,5 +59,10 @@ namespace tryconnect
             deletevisitorrecords delvisitfrm = new deletevisitorrecords();
             delvisitfrm.Show();
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1823,11 +1823,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anthony\\Documents\\group3REAL_ESTATE\\ACPxDBMS\\tryconnect\\tryconnect\\tryconnect.csproj",
+      "projectUniqueName": "C:\\Users\\Anthony\\Documents\\group3REAL_ESTATE\\ACPxDBMS\\folder1\\tryconnect\\tryconnect\\tryconnect.csproj",
       "projectName": "tryconnect",
-      "projectPath": "C:\\Users\\Anthony\\Documents\\group3REAL_ESTATE\\ACPxDBMS\\tryconnect\\tryconnect\\tryconnect.csproj",
+      "projectPath": "C:\\Users\\Anthony\\Documents\\group3REAL_ESTATE\\ACPxDBMS\\folder1\\tryconnect\\tryconnect\\tryconnect.csproj",
       "packagesPath": "C:\\Users\\Anthony\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anthony\\Documents\\group3REAL_ESTATE\\ACPxDBMS\\tryconnect\\tryconnect\\obj\\",
+      "outputPath": "C:\\Users\\Anthony\\Documents\\group3REAL_ESTATE\\ACPxDBMS\\folder1\\tryconnect\\tryconnect\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

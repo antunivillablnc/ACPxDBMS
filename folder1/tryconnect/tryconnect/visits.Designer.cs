@@ -117,8 +117,9 @@
             label9.Name = "label9";
             label9.Size = new Size(220, 115);
             label9.TabIndex = 17;
-            label9.Text = "Visit Rcords";
+            label9.Text = "Visit Records";
             label9.TextAlign = ContentAlignment.TopCenter;
+            label9.Click += label9_Click;
             // 
             // dataGridView1
             // 

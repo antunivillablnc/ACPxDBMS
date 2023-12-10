@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aD7VbsZLZtUHzVcrmE9UfRRkGrWmdic8VDP664TWaRJTgoTKOH7OINrB3nkc3RpD5TS+CABbabdPyDBtEw4Lww==",
+  "dgSpecHash": "SxohgwB3VtGipf+V94W0FErFfedTfZQn+c41eTpI/1lwVaHSOz9K0EEWd2CctxbXvb6IkIEJHbeLIlwnAHWTCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anthony\\Documents\\group3REAL_ESTATE\\ACPxDBMS\\tryconnect\\tryconnect\\tryconnect.csproj",
+  "projectFilePath": "C:\\Users\\Anthony\\Documents\\group3REAL_ESTATE\\ACPxDBMS\\folder1\\tryconnect\\tryconnect\\tryconnect.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anthony\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Anthony\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
